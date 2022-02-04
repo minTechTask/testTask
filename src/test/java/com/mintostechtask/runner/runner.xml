@@ -1,0 +1,8 @@
+<suite name="Sandbox testing">
+    <test name="App test">
+        <classes>
+            <class name="com.mintostechtask.cases.TestCases"></class>
+            <class name="com.mintostechtask.cases.validation.Validation"></class>
+        </classes>
+    </test>
+</suite>

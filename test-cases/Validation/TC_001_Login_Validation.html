@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>TC_002_Login_Validation</title>
+</head>
+<body>
+
+<h2>Test if validation messages appear on login page.</h2>
+
+<table style="width:80%">
+    <tr>
+        <th style="width:5%" align="center">Step no.</th>
+        <th style="width:15%" align="center">Functional Test Cases</th>
+        <th style="width:15%" align="center">Expected Result</th>
+        <th style="width:15%" align="center">Actual Result</th>
+    </tr>
+    <tr>
+        <td align="center">1</td>
+        <td>Open login page from the main screen by clicking on Sign In button at the top of the page.</td>
+        <td>Login page opened.</td>
+        <td>Login page opened.</td>
+    </tr>
+    <tr>
+        <td align="center">2</td>
+        <td>Type only incorrect login in to corresponding Email Address field and move action from the field.</td>
+        <td>Corresponding red message appears "The Email Address field is not a valid e-mail address."</td>
+        <td>Corresponding red message appears "The Email Address field is not a valid e-mail address."</td>
+    </tr>
+    <tr>
+        <td align="center">3</td>
+        <td>Type only incorrect password in to corresponding Password field and click on corresponding button.</td>
+        <td>Corresponding red message appears "Please provide an email address"</td>
+        <td>Corresponding red message appears "Please provide an email address"</td>
+    </tr>
+    <tr>
+        <td align="center">4</td>
+        <td>Type incorrect login/password combination in to corresponding Email Address/Password fields.</td>
+        <td>Corresponding red message appears "This email address or password is incorrect"</td>
+        <td>Corresponding red message appears "This email address or password is incorrect"</td>
+    </tr>
+</table>
+</body>
+</html>
